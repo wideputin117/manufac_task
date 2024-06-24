@@ -25,7 +25,8 @@ const MainApp = () => {
       let minProduction = { production: Infinity, crop: '' };
   
       const yearData = data.filter((item) => parseInt(item.Year.split(', ')[1].trim(), 10) === year);
-  
+    
+      // for every year data will calculate the max and min production
       yearData.forEach((item) => {
         const productionValue = parseFloat(item['Crop Production (UOM:t(Tonnes))']);
         if (!isNaN(productionValue)) {
@@ -53,26 +54,31 @@ const MainApp = () => {
     
     const result = [];
     const crops = [...new Set(data.map((item) => item['Crop Name']))];
-
+   // checking for each crop 
     crops.forEach((crop) => {
       const cropData = data.filter((item) => item['Crop Name'] === crop);
       const totalProduction = cropData.reduce(
         (acc, cur) => acc + (parseFloat(cur['Crop Production (UOM:t(Tonnes))']) || 0),
         0
       );
+      // calculating total area
       const totalArea = cropData.reduce(
         (acc, cur) => acc + (parseFloat(cur['Area Under Cultivation (UOM:Ha(Hectares))']) || 0),
         0
       );
+       // calculating average yield
       const averageYield =
         totalProduction / cropData.length > 0
           ? parseFloat((totalProduction / cropData.length).toFixed(3))
           : 0;
-      const averageArea =
+      
+       // Calculating average area
+          const averageArea =
         totalArea / cropData.length > 0
           ? parseFloat((totalArea / cropData.length).toFixed(3))
           : 0;
-
+        
+          // pushing the data in result arr
       result.push({
         crop: crop,
         averageYield: averageYield,
