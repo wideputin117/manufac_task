@@ -9,8 +9,8 @@ In the project directory, you can run:
 
 
 ### screenshot
-table 1 =(https://github.com/wideputin117/manufac_task/assets/91156090/3a92feba-a46f-4708-8e5e-ff815dcf066f)
-table 2 =(https://github.com/wideputin117/manufac_task/assets/91156090/28d1836b-559d-40c5-ab9d-63ac3c945586)
+table 1 =https://github.com/wideputin117/manufac_task/assets/91156090/3a92feba-a46f-4708-8e5e-ff815dcf066f
+table 2 =https://github.com/wideputin117/manufac_task/assets/91156090/28d1836b-559d-40c5-ab9d-63ac3c945586
 
 ### `yarn start`
 
