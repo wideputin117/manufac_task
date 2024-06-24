@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+
+### screenshot
+table 1 =(https://github.com/wideputin117/manufac_task/assets/91156090/3a92feba-a46f-4708-8e5e-ff815dcf066f)
+table 2 =(https://github.com/wideputin117/manufac_task/assets/91156090/28d1836b-559d-40c5-ab9d-63ac3c945586)
+
 ### `yarn start`
 
 Runs the app in the development mode.\
@@ -69,8 +75,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-
-### screenshot
-table 1 =(https://github.com/wideputin117/manufac_task/assets/91156090/3a92feba-a46f-4708-8e5e-ff815dcf066f)
-table 2 =(https://github.com/wideputin117/manufac_task/assets/91156090/28d1836b-559d-40c5-ab9d-63ac3c945586)
+ 
